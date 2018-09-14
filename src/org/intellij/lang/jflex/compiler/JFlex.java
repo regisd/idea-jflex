@@ -99,7 +99,7 @@ public final class JFlex {
         }
         command.append(SPACE).append(QUOT).append(file.getPath()).append(QUOT);
 
-        String shell = SystemInfo.isWindows ? SystemInfo.isWindows9x ? COMMAND_COM : CMD_EXE : BIN_BASH;
+        String shell = SystemInfo.isWindows ? SystemInfo.isWin2kOrNewer ? CMD_EXE : COMMAND_COM : BIN_BASH;
         String[] commands;
         if (SystemInfo.isWindows) {
             commands = new  String[]{shell, SLASH_C, QUOT + command.toString() + QUOT};
