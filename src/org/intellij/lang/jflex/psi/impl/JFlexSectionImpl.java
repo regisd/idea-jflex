@@ -5,10 +5,7 @@ import org.intellij.lang.jflex.psi.JFlexSection;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 19.03.2008
- * Time: 22:45:06
+ * @author Max
  */
 public class JFlexSectionImpl extends JFlexElementImpl implements JFlexSection {
 

@@ -9,10 +9,7 @@ import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 20.03.2008
- * Time: 22:45:46
+ * @author Max
  */
 public class JFlexMacroDefinitionImpl extends JFlexElementImpl implements JFlexMacroDefinition {
 

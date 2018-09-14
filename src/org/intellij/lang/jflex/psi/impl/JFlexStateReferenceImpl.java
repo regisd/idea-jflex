@@ -17,10 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 28.03.2008
- * Time: 9:11:25
+ * @author Max
  */
 public class JFlexStateReferenceImpl extends JFlexElementImpl implements JFlexStateReference {
 

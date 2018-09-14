@@ -3,10 +3,7 @@ package org.intellij.lang.jflex.psi;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 17.03.2008
- * Time: 23:23:12
+ * @author Max
  */
 
 /**

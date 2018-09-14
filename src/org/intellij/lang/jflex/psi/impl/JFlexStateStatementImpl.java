@@ -8,10 +8,7 @@ import org.intellij.lang.jflex.psi.JFlexStateStatement;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 24.03.2008
- * Time: 23:44:01
+ * @author Max
  */
 public class JFlexStateStatementImpl extends JFlexElementImpl implements JFlexStateStatement {
 

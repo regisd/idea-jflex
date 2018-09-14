@@ -6,10 +6,7 @@ import org.intellij.lang.jflex.psi.JFlexJavaCode;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 15.03.2008
- * Time: 21:01:02
+ * @author Max
  */
 public class EmbeddedJavaLiteralTextEscaper extends LiteralTextEscaper<JFlexJavaCode> {
 

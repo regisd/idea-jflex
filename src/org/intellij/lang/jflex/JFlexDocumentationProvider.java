@@ -10,11 +10,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 01.04.2008
- * Time: 23:25:17
- */
+ * @author Max
+*/
 public class JFlexDocumentationProvider implements DocumentationProvider {
 
     @Nullable

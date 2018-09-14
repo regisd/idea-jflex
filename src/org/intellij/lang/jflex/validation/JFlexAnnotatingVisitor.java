@@ -8,10 +8,7 @@ import com.intellij.psi.PsiReferenceExpression;
 import org.intellij.lang.jflex.psi.JFlexMacroReference;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 22.03.2008
- * Time: 17:19:55
+ * @author Max
  */
 public class JFlexAnnotatingVisitor extends PsiElementVisitor implements Annotator {
 

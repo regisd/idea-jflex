@@ -1,10 +1,7 @@
 package org.intellij.lang.jflex.psi;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 18.03.2008
- * Time: 22:55:17
+ * @author Max
  */
 
 /**

@@ -16,10 +16,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 15.03.2008
- * Time: 18:51:14
+ * @author Max
  */
 public class JFlexJavaCodeImpl extends JFlexElementImpl implements JFlexJavaCode {
 

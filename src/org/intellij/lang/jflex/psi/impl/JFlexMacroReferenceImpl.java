@@ -16,10 +16,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 19.03.2008
- * Time: 23:22:03
+ * @author Max
  */
 public class JFlexMacroReferenceImpl extends JFlexElementImpl implements JFlexMacroReference {
 

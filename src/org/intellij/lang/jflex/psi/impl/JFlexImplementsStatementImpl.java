@@ -7,10 +7,7 @@ import org.intellij.lang.jflex.psi.JFlexImplementsStatement;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 18.03.2008
- * Time: 23:53:42
+ * @author Max
  */
 public class JFlexImplementsStatementImpl extends JFlexElementImpl implements JFlexImplementsStatement {
 

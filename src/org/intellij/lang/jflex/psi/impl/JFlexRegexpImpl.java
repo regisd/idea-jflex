@@ -5,10 +5,7 @@ import org.intellij.lang.jflex.psi.JFlexRegexp;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 22.03.2008
- * Time: 23:18:54
+ * @author Max
  */
 public class JFlexRegexpImpl extends JFlexElementImpl implements JFlexRegexp {
 

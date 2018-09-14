@@ -5,10 +5,7 @@ import org.intellij.lang.jflex.psi.JFlexTypeStatement;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 17.03.2008
- * Time: 23:19:57
+ * @author Max
  */
 public class JFlexTypeStatementImpl extends JFlexOptionStatementBase implements JFlexTypeStatement {
 

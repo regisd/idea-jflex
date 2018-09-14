@@ -4,32 +4,30 @@ import com.intellij.lang.Commenter;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 01.04.2008
- * Time: 23:39:04
+ * @author Max
  */
 public class JFlexCommenter implements Commenter {
-    @Nullable
-    public String getBlockCommentPrefix() {
-        return null;
-    }
 
-    @Nullable
-    public String getBlockCommentSuffix() {
-        return null;
-    }
+  @Nullable
+  public String getBlockCommentPrefix() {
+    return null;
+  }
 
-    @Nullable
-    public String getLineCommentPrefix() {
-        return "//";
-    }
+  @Nullable
+  public String getBlockCommentSuffix() {
+    return null;
+  }
 
-    public String getCommentedBlockCommentSuffix() {
-        return null;
-    }
+  @Nullable
+  public String getLineCommentPrefix() {
+    return "//";
+  }
 
-    public String getCommentedBlockCommentPrefix() {
-        return null;
-    }
+  public String getCommentedBlockCommentSuffix() {
+    return null;
+  }
+
+  public String getCommentedBlockCommentPrefix() {
+    return null;
+  }
 }

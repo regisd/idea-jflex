@@ -8,10 +8,7 @@ import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 24.03.2008
- * Time: 23:34:47
+ * @author Max
  */
 public class JFlexStateDefinitionImpl extends JFlexElementImpl implements JFlexStateDefinition {
 

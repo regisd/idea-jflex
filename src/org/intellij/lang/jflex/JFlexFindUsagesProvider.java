@@ -12,10 +12,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Max
- * Date: 01.04.2008
- * Time: 23:31:29
+ * @author Max
  */
 public class JFlexFindUsagesProvider implements FindUsagesProvider {
 
