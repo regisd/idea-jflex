@@ -23,7 +23,14 @@
     <description>Enables JFlex support in IntelliJ IDEA.</description>
     <resource-bundle>org.intellij.lang.jflex.util.JFlexBundle</resource-bundle>
 
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
     <idea-version since-build="111.167"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+     on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationConfigurable implementation="org.intellij.lang.jflex.options.JFlexConfigurable"/>
@@ -40,4 +47,9 @@
         <applicationService serviceInterface="org.intellij.lang.jflex.options.JFlexSettings"
                             serviceImplementation="org.intellij.lang.jflex.options.JFlexSettings" />
     </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
 </idea-plugin>
