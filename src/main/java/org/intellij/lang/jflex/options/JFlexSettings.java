@@ -15,7 +15,7 @@ import java.io.File;
  *
  * @author Alexey Efimov
  */
-@State(name = "JFlexSettings", storages = {@Storage(id = "jflex", file = "$APP_CONFIG$/jflex.xml")})
+@State(name = "JFlexSettings", storages = {@Storage(file = "$APP_CONFIG$/jflex.xml")})
 public final class JFlexSettings implements PersistentStateComponent<JFlexSettings> {
     @NonNls
     static final String TOOLS_DIR = "tools";
