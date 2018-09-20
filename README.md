@@ -11,3 +11,4 @@ Import `idea-jflex` as a module using existing sources.
 
 Run the `:runide` gradle task.
 
+This plugin was tested on **IntelliJ 2018.3 EAP**.
